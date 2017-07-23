@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Author: Artem Tabolin <artemtab@yandex.ru>
+# Example output:
+# Read 1000000 numbers into array using "a.append(int(f.readline()))" in 0.5692962329994771 seconds
+# Read 1000000 numbers into array using "a[i] = int(f.readline())" in 0.5054713299978175 seconds
+# Read 1000000 numbers into array using "a = [int(f.readline()) for i in range(n)]" in 0.5023784420045558 seconds
 
 import os
 import random

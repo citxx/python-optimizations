@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Author: Artem Tabolin <artemtab@yandex.ru>
+# Example output:
+# Read 1000000 numbers using "int(input())" in 1.8937892050016671 seconds
+# Read 1000000 numbers using "int(sys.stdin.readline())" in 0.6622662610025145 seconds
 
 import os
 import random

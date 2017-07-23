@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Author: Artem Tabolin <artemtab@yandex.ru>
+# Example output:
+# Sum of 10000000 numbers on module level in 5.0005733920042985 seconds
+# Sum of 10000000 numbers on function level in 3.303951841997332 seconds
 
 import os
 import random

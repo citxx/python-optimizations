@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Author: Artem Tabolin <artemtab@yandex.ru>
+# Example output
+# Wrote 1000000 numbers using "print(x, file=f)" in 1.6223861339967698 seconds
+# Wrote 1000000 numbers using "f.write(str(x) + '\n')" in 0.7785177710029529 seconds
 
 import os
 import random
